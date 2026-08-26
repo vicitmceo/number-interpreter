@@ -1,4 +1,3 @@
-// Middleware 6: формує та надсилає фінальну відповідь
 function finalizeMiddleware(req, res) {
   if (req.words.length === 0) {
     req.words.push('нуль');

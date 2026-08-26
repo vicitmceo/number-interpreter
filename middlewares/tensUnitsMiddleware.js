@@ -1,6 +1,5 @@
 const { unitsMasculine, teens, tens } = require('../extensions/dictionaries');
 
-// Middleware 5: обробляє розряди десятків та одиниць (0..99), з урахуванням 10-19
 function tensUnitsMiddleware(req, res, next) {
   const rest = req.num;
 

@@ -1,7 +1,6 @@
 const convertTriplet = require('../extensions/convertTriplet');
 const { thousandWord } = require('../extensions/pluralize');
 
-// Middleware 3: обробляє розряд тисяч (у т.ч. рівно 100000)
 function thousandsMiddleware(req, res, next) {
   const thousands = Math.floor(req.num / 1000);
 

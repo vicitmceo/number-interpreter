@@ -1,6 +1,5 @@
 const { unitsMasculine, unitsFeminine, teens, tens, hundreds } = require('./dictionaries');
 
-// Перетворює число 0..999 у масив слів. feminine=true використовує жіночий рід одиниць (для тисяч)
 function convertTriplet(n, feminine = false) {
   const words = [];
   const h = Math.floor(n / 100);

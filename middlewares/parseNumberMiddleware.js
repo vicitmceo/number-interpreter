@@ -1,4 +1,3 @@
-// Middleware 1: зчитує та валідує число з query-параметра
 function parseNumberMiddleware(req, res, next) {
   const raw = req.query.number;
 
